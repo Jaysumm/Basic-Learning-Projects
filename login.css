@@ -1,0 +1,167 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: border-box;
+}
+.navbar{
+    height: 60px;
+    /* width: 1364px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(226, 17, 17, 0.726);
+    /* position: sticky; */
+    /* z-index: 1000; */
+}
+.nav-logo{
+    display: inline-flex;
+    padding-left: 20px;
+}
+.nav-logo img{
+    height: 50px;
+    /* display: inline-block; */
+    /* width: 100%; */
+}
+.nav-search{
+    display: flex;
+    margin-right: 300px;
+    margin-left: 40px;
+}
+.search-box input{
+    height: 40px;
+    width: 550px;
+    /* text-align: center; */
+    padding-left: 20px;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border: none;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.search-box input :active{
+    box-shadow: none;
+    border: none;
+}
+.search-icon , .search-scanner{
+    height: 40px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+    background-color: white;
+}
+.search-icon{
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.notification , .message , .dots , .favourite{
+    height: 60px;
+    width: 60px;
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+    margin: 10px;
+}
+.login{
+    height: 40px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+    margin: 25px;
+}
+.login span{
+    margin-left: 4px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.body-tag{
+    height: 500px;
+    /* width: 1340px;
+    background-color: #B61616; */
+    
+    font-size: 20px;
+    /* display: inline-flex; */
+    align-items: center;
+    justify-content: space-evenly;
+}
+.video-background{
+   /* width: 1347px; */
+   position: fixed;
+            top: 50%;
+            left: 50%;
+            min-width: 100%;
+            min-height: 100%;
+            width: 1364px;
+            height: 760px;
+            z-index: -1;
+            transform: translate(-50%, -50%);
+            background-size: cover;
+}
+.body-one{
+    border: 2px solid black;
+    height: 500px;
+    width: 800px;
+    position: absolute;
+    top: 17%;
+    left: 20%;
+    border-radius: 50px;
+    text-align: center;
+    /* background-color: transparent ; */
+    background-color: rgba(0, 0, 0, 0.4); 
+}
+.username input{
+    height: 40px;
+    width: 300px;
+    margin: 5px;
+    margin-top: 90px;
+    padding-left: 6px;
+    font-size: 14px;
+}
+.password input {
+    height: 40px;
+    width: 300px;
+    margin: 5px;
+    padding-left: 6px;
+    font-size: 14px;
+}
+.submit input{
+    height: 40px;
+    width: 200px;
+    margin: 10px;
+    text-align: center;
+    font-size: 15px;
+    background-color: rgb(0, 204, 255);
+    border: none;
+    border-radius: 50px;
+    color: white;
+}
+.facebook{
+    display: flex;
+    position: relative;
+    left: 35%;
+    color: rgb(0, 2, 145);
+    margin: 20px;
+}
+.facebook-logo{
+    margin-right: 10px;
+}
+.forgot{
+    font-size: 16px;
+}
+.register{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    font-size: 18px;
+}
+.register a{
+    text-decoration: none;
+    padding-left: 10px;
+    color: rgb(114, 112, 112);
+}
+.video-logo{
+    height: 50px;
+    margin-left: 5px;
+    border-radius: 10px;
+}
