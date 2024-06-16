@@ -14,7 +14,7 @@ Clone the repository:
 
 bash
 Copy code
-git clone https://github.com/yourusername/your-repository.git
+git clone https://github.com/Jaysumm/Basic-Learning-Projects.git
 Navigate to the project directory:
 
 bash
